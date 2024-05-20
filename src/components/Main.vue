@@ -166,7 +166,7 @@
 .rowhp {
     position: relative;
     color: white;
-    width: 1857px;
+    width: 100%;
     background-color: black;
 }
 
@@ -177,6 +177,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    width: 100%;
     background-image: url(../assets/abcde.gif);
     background-repeat: no-repeat;
     background-size: cover;
