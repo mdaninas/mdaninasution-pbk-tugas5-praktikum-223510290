@@ -20,9 +20,11 @@ import Mainn from "./components/Main.vue"
       <q-tabs align="left">
         <div class="bbbb">
           <div class="aaaa">
-            <q-btn outline style="color: goldenrod;" label="New" />
-            <q-btn outline style="color: goldenrod;" label="Hot" />
-            <q-btn outline style="color: goldenrod;" label="Limited" />
+            <div class="leftbut">
+              <q-btn outline style="color: goldenrod;" label="New" />
+              <q-btn outline style="color: goldenrod;" label="Hot" />
+              <q-btn outline style="color: goldenrod;" label="Limited" />
+            </div>
           </div>
           <div class="cccc">
             <q-btn round color="primary" icon="shopping_cart" />
@@ -58,6 +60,13 @@ import Mainn from "./components/Main.vue"
 .aaaa{
   display: flex;
   gap: 40px;
+
+  align-items: center; 
+}
+.leftbut{
+  margin-left: 30px;
+  display: flex;
+  gap: 30px;
 }
 .cccc {
   display: flex;
